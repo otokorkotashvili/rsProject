@@ -1,0 +1,53 @@
+.footer {
+    background-color: #053354;
+    display: flex;
+    padding: 0 150px;
+    margin-bottom: 10px;
+    margin-top: 125px;
+}
+
+.comapnyLogo {
+    display: flex;
+    align-items: center;
+    & > p {
+        color: #ffffff;
+        margin: 0;
+    }
+}
+
+.information {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 200px;
+    width: 100%;
+    & > div:nth-child(2) {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            padding: 0;
+            list-style: none;
+            color: white;
+
+            & > li {
+                padding-bottom: 5px;
+            }
+        }
+    }
+}
+
+.satauri {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ecf2f8;
+    & > p {
+        color: white;
+    }
+}
+
+.copyright {
+    padding-left: 150px;
+    & > p {
+    }
+}

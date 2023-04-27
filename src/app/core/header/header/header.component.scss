@@ -1,0 +1,96 @@
+$bodyPadding: 150px;
+
+header {
+    margin-bottom: 60px;
+}
+
+.topHeader {
+    display: flex;
+    height: 66px;
+    padding: 20px $bodyPadding 0 $bodyPadding;
+    justify-content: space-between;
+    margin-bottom: 27px;
+    & > div:last-child {
+        display: flex;
+    }
+}
+
+.comapnyLogo {
+    display: flex;
+    align-items: center;
+
+    & > p {
+        color: #ff2c52;
+        font-size: 22px;
+        margin: 0;
+    }
+}
+
+.bottomHeader {
+    background-color: #ecf2f8;
+    height: 50px;
+    padding: 35px $bodyPadding;
+    display: flex;
+
+    .contactInfo {
+        display: flex;
+        gap: 40px;
+        margin-right: 97px;
+        
+        & > div {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            align-items: center;
+
+            &>img{
+                padding: 10px;
+                background-color: #fff;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.search {
+    background-color: #053354;
+    border: none;
+    border-radius: 50%;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.searchDoctor {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.navigation { 
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    border-bottom: 2px solid #ecf2f8;
+    margin: 0;
+    width: fit-content;
+    padding: 0 10px 0 10px;
+    margin-top: revert;
+
+    & > li {
+        padding: 0 0 20px 0;
+        transform: translateY(2px);
+
+        &.active {
+            font-weight: bold;
+            border-bottom: 2px solid #18a4e1;
+        }
+    }
+}
+
+.eng {
+    background-color: #f0faff;
+    margin: auto;
+    padding: 13px 24px;
+    border-radius: 25px;
+    margin-left: 29px;
+}

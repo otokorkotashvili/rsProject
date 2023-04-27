@@ -1,0 +1,6 @@
+<div class="rsInputContainer">
+    <label *ngIf="label">{{ label }}</label>
+    <div [class.fullView]="label">
+        <input type="text" class="rsInput" [placeholder]="placeHolder">
+    </div>
+</div>
